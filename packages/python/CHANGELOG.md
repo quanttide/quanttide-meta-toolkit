@@ -11,6 +11,7 @@
 - PyPI 元信息：项目链接由前身仓 `quanttide-base-toolkit` 改指本仓
 - 仓库根目录补 Apache-2.0 许可证文件（与 pyproject 声明一致）
 - README 命名对齐领域长名 `meta-engineering`：标题改为「量潮元工程工具箱」，「元领域」表述改为「元工程」
+- 包 README 定位改为「量潮元工程库（Python SDK）」（原为「量潮基础工具箱的 Python SDK」）
 
 ## [0.1.1] - 2026-05-20
 
