@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### 新增
+
+- `ROADMAP.md`：v0.3.0 规划为对齐元工程建模升级，属于彻底升级定位的破坏性更新
+
 ### 修复
 
 - PyPI 元信息：项目链接由前身仓 `quanttide-base-toolkit` 改指本仓
