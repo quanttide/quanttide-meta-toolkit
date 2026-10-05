@@ -23,9 +23,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/quanttide/quanttide-base-toolkit"
-Source = "https://github.com/quanttide/quanttide-base-toolkit"
-Tracker = "https://github.com/quanttide/quanttide-base-toolkit/issues"
+Homepage = "https://github.com/quanttide/quanttide-meta-toolkit"
+Source = "https://github.com/quanttide/quanttide-meta-toolkit"
+Tracker = "https://github.com/quanttide/quanttide-meta-toolkit/issues"
 
 [build-system]
 requires = ["hatchling"]

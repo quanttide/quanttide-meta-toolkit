@@ -1,10 +1,10 @@
-# 量潮元领域（quanttide-meta-toolkit）
+# 量潮元工程工具箱（quanttide-meta-toolkit）
 
-> META 元领域——对各模块的总结和再次抽象，而非被强制依赖的基础。
+> META 归纳模式——对各模块的总结和再次抽象，而非被强制依赖的基础。
 
 ## 定位
 
-quanttide-meta 是量潮工具库体系中的**独立领域（元领域）**。它把传统工程体系中"所有库都依赖的 BASE/CORE"拆解掉，转而定义一种**归纳模式（Summarize）**：
+quanttide-meta-toolkit 属元工程领域（`meta-engineering`），是量潮工具库体系中的独立一层。它把传统工程体系中"所有库都依赖的 BASE/CORE"拆解掉，转而定义一种**归纳模式（Summarize）**：
 
 - 对各个领域模块的**共同模式**进行再次总结和抽象
 - 提供标准字段、标准模型（如 Contract、Event）等归纳特征
@@ -20,7 +20,7 @@ quanttide-meta 是量潮工具库体系中的**独立领域（元领域）**。�
 ## 为什么这样设计
 
 1. **消除单点故障**：系统不再有"动了就全崩"的基础库
-2. **元领域独立迭代**：元规范（统一概念、概念关系、二次抽象）可以快速更新
+2. **元工程独立迭代**：元规范（统一概念、概念关系、二次抽象）可以快速更新
 3. **领域间一致性治理**：当领域之间出现混乱时，用 META 进行治理（统一概念、统一概念之间的关系、二次抽象）
 4. **可拆除**：如果 META 不好用可以直接拆掉——BASE/CORE 是拆不掉的
 
@@ -44,7 +44,7 @@ quanttide-meta-toolkit/
 
 - **quanttide-toolkit**：元仓库，挂载各领域 toolkit（领域层）
 - **quanttide-index-toolkit**：入口库（继承 base 历史，推翻重写——人和 AI 找库的入口）
-- **quanttide-meta-toolkit**：元领域（本仓库）——接管了原 base 库的职能，但以 Summarize 模式存在
+- **quanttide-meta-toolkit**：元工程工具箱（本仓库）——接管了原 base 库的职能，但以 Summarize 模式存在
 
 ## 来源
 
